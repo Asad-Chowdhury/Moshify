@@ -1,0 +1,38 @@
+<nav class="nav collapsible collapsible--expanded">
+  <a href="/"><img src="/images/logo.svg" alt="Site Logo" /></a>
+  <svg class="icon icon--white nav__toggler">
+    <use xlink:href="/icons/sprite.svg#menu"></use>
+  </svg>
+  <ul class="list nav__list collapsible__content">
+    <li class="nav__item"><a href="#">Hosting</a></li>
+    <li class="nav__item"><a href="#">VPS</a></li>
+    <li class="nav__item"><a href="#">Domain</a></li>
+    <li class="nav__item"><a href="#">Pricing</a></li>
+  </ul>
+</nav>
+<section class="block block--dark block--skewed-left hero">
+  <div class="container grid grid--cols-2">
+    <header class="block__header hero__content">
+      <h1 class="block__headings">Cloud Hosting for Pros</h1>
+      <p class="hero__tagline">Deploy your websites in less than 60 seconds</p>
+      <a href="" class="btn btn--accent btn--streached">Get Started</a>
+    </header>
+    <picture>
+      <source
+        type="image/webp"
+        srcset="
+          /images/resized-image/banner@1x.webp 1x,
+          /images/resized-image/banner@2x.webp 2x
+        "
+      />
+      <source
+        type="image/webp"
+        srcset="
+          /images/resized-image/banner@1x.png 1x,
+          /images/resized-image/banner@2x.png 2x
+        "
+      />
+      <img class="hero__image" src="/images/banner.png" alt="" />
+    </picture>
+  </div>
+</section>
